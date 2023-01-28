@@ -1,0 +1,99 @@
+body{
+    background-color: #eee;
+}
+.container{
+    width: 500px;
+    height: 300px;
+    background-color: white;
+
+    border-radius: 5px;
+    margin: 40px auto;
+    text-align: center;
+    position: relative;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(238, 238, 238, 0.598);
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+h2{
+    padding-top: 20px;
+    text-transform: capitalize;
+    color: rebeccapurple;
+}
+.box{
+    padding: 30px 60px;
+
+border-radius: 5px;
+
+}
+.text{
+    margin-top: 20px;
+margin-bottom: 10px;
+border: 1px solid #ccc;
+}
+.btn{
+/* margin-top: 20px; */
+cursor: pointer;
+background-color: rebeccapurple;
+color: white;
+padding: 4px;
+border: none;
+border-radius: 5px;
+}
+.remain{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    color: rebeccapurple;
+}
+.num{
+    width: 30px;
+    height: 10px;
+    background-color: white;
+    color: rgb(149, 101, 197);
+  padding: 0 10px;
+  border-radius: 5px;
+  /* color: white; */
+  cursor: pointer;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.res{
+    display: flex;
+    justify-content: space-around;
+  
+    align-items: center;
+    color: rgb(114, 35, 199);
+    z-index: 22;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+   left: 35%;
+/* padding-lef: 30px; */
+  
+font-size: 20px;
+}
+.sccuss{
+margin-right: 20px;
+display: none;
+}
+.fail{
+display: none;
+}
+.sccuss.active{
+    display: block;
+}
+.fail.active{
+    display: block;
+}
+.fin{
+    display: none;
+}
+.fin.active{
+    display: block;
+}
